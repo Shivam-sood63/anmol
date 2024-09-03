@@ -1,0 +1,169 @@
+@media (max-width: 952px) {
+    .logo-img {
+        width: 24%;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1073px) {
+    .checkbtn {
+        display: block;
+    }
+    
+    
+    ul {
+        position: fixed;
+        /* width: 96%; */
+        height: 100vh;
+        background-color: #053d6a;
+        top: 0;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    a:hover,a.active {
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+    .Search-box {
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .text-container {
+        display: block;
+    }
+
+    .text-col2{
+        width: 100%;
+        /* display: block; */
+    }
+
+    .btn-resp button {
+        line-height: 1;
+        padding: 0.5rem 3.5rem;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+
+    /* -------About Us------- */
+
+    .container {
+        display: block;
+        /* padding-right: 6rem; */
+        padding-left: 1rem;
+    }
+    .col-2 {
+        width: 86%;
+    }
+    
+
+    /* ------Service Section------ */
+    .services-container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services-col2 {
+        width: 100%;
+    }
+
+    /* ------ Feature Start -------     */
+    .features-container {
+        display: block;
+    }
+    .features-col2 {
+        width: 100%;
+    }
+    .features-img {
+        margin-top: 1rem;
+    }
+    /*--------------- Case Study --------------*/
+    .case-content {
+        display: block;
+    }
+    .col-content3 {
+        width: 100%;
+    }
+    /* ----------FAQs Section-------------- */
+    .faqs-container {
+        display: block;
+    }
+    /* ------------Team Section---------- */
+    .team-container {
+        display: block;
+    }
+    /* ------------NewsLetter Section---------- */
+    .fotter-col4 {
+        width: 100%;
+        /* align-items: center;
+        justify-content: center; */
+        text-align: center;
+    }
+    .news-img {
+        width: 100%;
+
+    }
+    /* -----Footer Section--------- */
+    .fotter-row {
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+@media (max-width: 660px) {
+    .card-col1 {
+        display: block;
+    }
+    .card-col2 {
+        display: block;
+    }
+    .card {
+        width: 100%;
+        margin-left: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    /*--------------- Case Study --------------*/
+    .case-content {
+    display: block;
+    }
+    /* ---------team section------------ */
+    .teamCard-col1 {
+        display: block;
+    }
+    .teamCard-col2 {
+        display: block;
+    }
+    .team-social-icon{
+        padding-bottom: 1rem;
+    }
+    .news-container {
+        display: block;
+    }
+
+    footer {
+        /* margin-bottom: 13rem; */
+    }
+}
+
+
